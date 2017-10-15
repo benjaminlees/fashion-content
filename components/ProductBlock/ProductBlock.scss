@@ -1,0 +1,23 @@
+.ProductBlock {
+  width: 100%;
+  font-family: monospace;
+  &-product {
+    display: inline-block;
+    box-sizing: border-box; 
+    width: calc(100% / 3);
+    padding: 1em;
+    &--select {
+      display: block;
+    }
+  }
+  &-arrow {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  &-image {
+    width: 100%;
+  }
+}

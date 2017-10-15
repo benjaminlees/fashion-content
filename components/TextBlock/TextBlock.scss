@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+.TextBlock {
+  font-family: monospace;
+  cursor: pointer;
+  &-title {
+    text-transform: uppercase;
+  }
+  &-input {
+    position: relative;
+    width: 100%;
+    margin: 1em;
+  }
+}
